@@ -33,6 +33,10 @@ App.PostController = Ember.ObjectController.extend({
   }
 });
 
+Ember.Handlebars.helper('format-date', function(date) {
+  return moment(date).fromNow();
+});
+
 var posts = [{
   id: '1',
   title: 'Intro to Ember',
