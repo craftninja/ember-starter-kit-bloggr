@@ -14,10 +14,18 @@
       <div class="navbar-inner">
         <a class="brand" href="#">Bloggr</a>
         <ul class="nav">
-          <li><a href="#">Posts</a></li>
-          <li><a>About</a></li>
+          <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
+          <li>{{#link-to 'about'}}About{{/link-to}}</li>
         </ul>
       </div>
+    </div>
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" id='about'>
+    <div class='about'>
+      <p>I am learning about Ember. It is pretty exciting.</p>
+      <p>This project was created along with the video at <a href="http://emberjs.com/guides/">Emberjs.com/guides</a>. It also required links to some css and javascript things that can be found at <a href="http://www.bootstrapcdn.com/#legacy_tab">Bootstrap CDN</a> (legacy, version 2.3.2 no icons) and <a href="https://cdnjs.com/">cdnjs</a> (look for showdown and moment).</p>
     </div>
   </script>
 

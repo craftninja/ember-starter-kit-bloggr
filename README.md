@@ -30,6 +30,7 @@ What I did:
     </script>
 
 1. Open index.html in the browser.
+1. Check the subsequent diffs...
 
 
 What was already in the README
