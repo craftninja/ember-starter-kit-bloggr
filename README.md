@@ -17,17 +17,19 @@ What I did:
   * Get showdown and moment from https://cdnjs.com/
 1. Add following to body above scripts on index.html
 
-    <script type="text/x-handlebars">
-      <div class="navbar">
-        <div class="navbar-inner">
-          <a class="brand" href="#">Bloggr</a>
-          <ul class="nav">
-            <li><a href="#">Posts</a></li>
-            <li><a>About</a></li>
-          </ul>
-        </div>
-      </div>
-    </script>
+ ```
+ <script type="text/x-handlebars">
+   <div class="navbar">
+     <div class="navbar-inner">
+       <a class="brand" href="#">Bloggr</a>
+       <ul class="nav">
+         <li><a href="#">Posts</a></li>
+         <li><a>About</a></li>
+       </ul>
+     </div>
+   </div>
+ </script>
+ ```
 
 1. Open index.html in the browser.
 1. Check the subsequent diffs...
